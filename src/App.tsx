@@ -9,6 +9,7 @@ function App() {
         alignItems: 'center',
         height: '100dvh',
         width: '100dvw',
+        overflow: 'hidden',
       }}
     >
       <ZoomableDiv />
