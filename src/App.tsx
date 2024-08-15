@@ -1,4 +1,4 @@
-import ZoomableDiv from './components/ZoomableDiv';
+import ZoomableComponent from './components/ZoomableComponent';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         overflow: 'hidden',
       }}
     >
-      <ZoomableDiv />
+      <ZoomableComponent />
     </div>
   );
 }
