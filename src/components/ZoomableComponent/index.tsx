@@ -21,7 +21,10 @@ const ZoomableComponent = () => {
             <button onClick={() => resetTransform()}>Reset</button>
           </ZoomButtonsDiv>
 
-          <TransformComponent>
+          <TransformComponent
+            wrapperStyle={{ height: '100%', width: '100%' }}
+            contentStyle={{ height: '100%', width: '100%' }}
+          >
             <Container>
               <img src='/assets/images/property2.webp' alt='property' />
             </Container>
