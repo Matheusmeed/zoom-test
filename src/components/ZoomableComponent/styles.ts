@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: red;
+  height: 100dvh;
+  width: fit-content;
 
   img {
-    width: 100%;
+    width: auto;
     height: 100%;
   }
 `;

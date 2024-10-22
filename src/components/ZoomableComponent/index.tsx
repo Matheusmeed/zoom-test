@@ -23,16 +23,16 @@ const ZoomableComponent = () => {
 
           <TransformComponent
             wrapperStyle={{ height: '100%', width: '100%' }}
-            contentStyle={{ height: '100%', width: '100%' }}
+            contentStyle={{ height: '100%', width: 'fit-content' }}
           >
             <Container>
-              <img src='/assets/images/property2.webp' alt='property' />
+              <img src='/assets/images/property3.webp' alt='property' />
             </Container>
           </TransformComponent>
 
           <MinimapContainer>
             <MiniMap borderColor='red' style={{ border: '1px solid white' }}>
-              <img src='/assets/images/property2.webp' alt='property mini' />
+              <img src='/assets/images/property3.webp' alt='property mini' />
             </MiniMap>
           </MinimapContainer>
         </>
